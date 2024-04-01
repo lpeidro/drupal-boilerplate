@@ -41,7 +41,7 @@
         "metadrop/drupal-artifact-builder": "^1.4"
     },
     "require-dev": {
-        "metadrop/drupal-dev": "^1.1.0",
+        "metadrop/drupal-dev": "^2.0",
         "metadrop/drupal-boilerplate-assistant": "^3.0@beta"
     },
     "conflict": {
