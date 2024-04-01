@@ -36,7 +36,7 @@ class Informer(object):
 
 
   def parse_docker_info(self):
-    docker_info_stream = subprocess.check_output(['docker compose', 'config'])
+    docker_info_stream = subprocess.check_output(['docker', 'compose', 'config'])
     # print(docker_info_stream )
     self.info = yaml.safe_load(docker_info_stream)
 
