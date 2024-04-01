@@ -22,8 +22,8 @@ Describe 'Boilerplate folder structure' folders
   It 'has main boilerplate files'
     The path 'composer.json' should be file
     The path 'behat.yml' should be file
-    The path 'docker-compose.yml' should be file
-    The path "docker-compose.override.yml" should be file
+    The path 'compose.yml' should be file
+    The path "compose.override.yml" should be file
     The path "web/sites/default/settings.local.php" should be file
   End
 

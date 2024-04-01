@@ -1,7 +1,7 @@
 Describe 'BackstopJS' backstopjs
 
   It 'is installed and can be run'
-    When run command docker-compose exec -T backstopjs backstop
+    When run command docker compose exec -T backstopjs backstop
     The status should be success
     The output should include "Welcome to BackstopJS"
   End

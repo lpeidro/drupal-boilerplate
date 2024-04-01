@@ -30,7 +30,7 @@ spec_helper_configure() {
 # Checks if a given container is running.
 # $1: name of the container.
 container_is_alive() {
-  count=$(docker-compose ps --services --filter "status=running" | grep $1| wc -l)
+  count=$(docker compose ps --services --filter "status=running" | grep $1| wc -l)
   if [ $count  -eq "1" ]
   then
     return 0
@@ -40,6 +40,6 @@ container_is_alive() {
 }
 
 container_count() {
-  docker-compose ps --services --filter "status=running" | wc -l
+  docker compose ps --services --filter "status=running" | wc -l
 }
 
