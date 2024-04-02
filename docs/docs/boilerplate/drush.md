@@ -27,7 +27,7 @@ Drush is preconfigured to:
 
   - Encourage Composer usage instead of using Drush to manage module code.
 
-  - Sanitize passwords using `password` as password during SQL sync operations. Edit `drush/drush.yml` to use a less obvious value. See [drush.yml example file](https://www.drush.org/latest/examples/example.drush.yml/) to modify or add more configuration.
+  - Sanitize passwords during SQL sync operations. Edit `drush/drush.yml` if you want a fixed value. See [drush.yml example file](https://www.drush.org/latest/examples/example.drush.yml/) learn more about this configuration.
 
 
 
