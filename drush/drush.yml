@@ -15,10 +15,6 @@ command:
       options:
         # Uncomment to omit cache and similar tables (including during a sql:sync).
         structure-tables-key: common
-    sanitize:
-      options:
-        # Set a custom password if needed.
-        sanitize-password: password
 sql:
   # List of tables whose *data* is skipped by the 'sql-dump' and 'sql-sync'
   # commands when the "--structure-tables-key=common" option is provided.
